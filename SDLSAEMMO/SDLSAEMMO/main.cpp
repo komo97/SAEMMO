@@ -11,7 +11,7 @@ extern "C"
 int main(int argc, char *argv[])
 {
 	RPGSAEMMOApp app;
-	app.App(800, 800, "TEST", INITIALPARAMS, new MainScene());
+	app.App(800, 800, "TEST", SDL_WINDOW_RESIZABLE, 60, new MainScene());
 	return 0;
 }
 
