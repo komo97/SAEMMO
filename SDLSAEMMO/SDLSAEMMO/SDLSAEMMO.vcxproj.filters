@@ -19,36 +19,42 @@
     <Filter Include="Header Files\Scenes">
       <UniqueIdentifier>{44567025-32a8-4394-8dcc-8a9d2c14b5d7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Base classes">
+      <UniqueIdentifier>{01af1014-6e5a-4686-b245-acdabf99f5c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base classes">
+      <UniqueIdentifier>{e681852a-d47e-4727-81fd-7a0e96d43562}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RPGSAEMMOApp.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
     </ClCompile>
     <ClCompile Include="Scene.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Base classes</Filter>
     </ClCompile>
     <ClCompile Include="SceneManager.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Base classes</Filter>
     </ClCompile>
-    <ClCompile Include="MainScene.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="RPGSAEMMOApp.cpp">
+      <Filter>Source Files\Base classes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="RPGSAEMMOApp.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="MainScene.h">
+      <Filter>Header Files\Scenes</Filter>
     </ClInclude>
     <ClInclude Include="Scene.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Base classes</Filter>
     </ClInclude>
     <ClInclude Include="SceneManager.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Base classes</Filter>
     </ClInclude>
-    <ClInclude Include="MainScene.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="RPGSAEMMOApp.h">
+      <Filter>Header Files\Base classes</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

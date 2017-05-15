@@ -28,6 +28,15 @@ void SceneManager::DeleteSceneManager()
 	delete sceneManager;
 }
 
+SceneManager::~SceneManager()
+{
+	if (scene != nullptr)
+	{
+		scene->SceneEnd();
+		delete scene;
+	}
+}
+
 SceneManager::SceneManager()
 {
 	scene = nullptr;

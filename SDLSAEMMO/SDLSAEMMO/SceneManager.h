@@ -7,6 +7,7 @@ public:
 	void ChangeScene(Scene* const& _scene);
 	Scene* GetCurrentScene();
 	void DeleteSceneManager();
+	~SceneManager();
 private:
 	static SceneManager* sceneManager;
 	SceneManager();
